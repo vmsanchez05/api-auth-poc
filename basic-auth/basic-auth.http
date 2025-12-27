@@ -1,0 +1,10 @@
+@basic_auth_HostAddress = https://localhost:7111
+@base64_encoded_credentials = admin:password | base64
+
+### Public Endpoint
+GET {{basic_auth_HostAddress}}/public/
+
+### Secure Endpoint
+GET {{basic_auth_HostAddress}}/secure/
+Accept: application/json
+Authorization: Basic {{base64_encoded_credentials}}

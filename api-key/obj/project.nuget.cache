@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/XFxVNpjdyo=",
+  "success": true,
+  "projectFilePath": "/Users/vic/source/api-auth/api-key/api-key.csproj",
+  "expectedPackageFiles": [
+    "/Users/vic/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/vic/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

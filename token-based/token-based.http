@@ -1,0 +1,18 @@
+@token_based_HostAddress = http://localhost:5186
+
+### Login and capture token
+# @name login
+POST {{token_based_HostAddress}}/login/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "pass123"
+}
+
+###
+@token = {{login.response.body.token}}
+
+GET {{token_based_HostAddress}}/secure
+Authorization: Bearer {{token}}

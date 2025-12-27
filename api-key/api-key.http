@@ -1,0 +1,10 @@
+@api_key_HostAddress = http://localhost:5273
+
+GET {{api_key_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{api_key_HostAddress}}/
+Accept: application/json
+x-api-key: 123abc
